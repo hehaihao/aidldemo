@@ -1,0 +1,4 @@
+aidl_server服务端为模拟新版ocToken2.0，从旧版app接收数据
+aidl_client客户端为模拟旧版本，为新版本ocToken2.0发送privateKeyKyeStore和助记词wordskeystore
+
+#需要在AndroidManifest.xml中添加自定义权限

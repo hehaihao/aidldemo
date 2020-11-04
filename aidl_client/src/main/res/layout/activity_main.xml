@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/et_param1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要发送的PrivateKeyKeyStore"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_param2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要发送的助记词Wordskeystore"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送数据"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
